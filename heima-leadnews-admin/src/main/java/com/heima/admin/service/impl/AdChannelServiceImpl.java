@@ -13,6 +13,7 @@ import com.heima.model.common.dtos.PageResponseResult;
 import com.heima.model.common.dtos.ResponseResult;
 import com.heima.model.common.enums.AppHttpCodeEnum;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Date;
 
@@ -36,7 +37,7 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
     }
 
     @Override
-    public ResponseResult insert(AdChannel adChannel) {
+    public ResponseResult insert(@RequestBody AdChannel adChannel) {
         if(adChannel==null){
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
         }
@@ -46,7 +47,7 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
     }
 
     @Override
-    public ResponseResult update(AdChannel adChannel) {
+    public ResponseResult update(@RequestBody AdChannel adChannel) {
         if(adChannel==null){
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
         }

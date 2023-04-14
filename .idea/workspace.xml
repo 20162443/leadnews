@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b189cbd5-debf-44a1-bfc5-508e4277006d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller/AdChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller/AdChannelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/AdChannelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdChannelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdChannelControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/admin/AdChannelControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/AdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/config/SwaggerConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/controller/AdChannelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/mapper/AdChannelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/AdChannelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/impl/AdChannelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/admin/pojos/AdUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/admin/pojos/AdUser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +85,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -264,7 +278,7 @@
     <property name="dynamic.classpath" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-heima-leadnews-admin-vue-teacher" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -300,6 +314,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="AppJwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.utils.common.AppJwtUtil" />
+      <module name="heima-leadnews-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.utils.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResponseResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.heima.model.common.dtos.ResponseResult" />
       <module name="heima-leadnews-model" />
@@ -378,6 +405,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.ResponseResult" />
+      <item itemvalue="Application.AppJwtUtil" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.WemediaApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
@@ -390,6 +418,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppJwtUtil" />
         <item itemvalue="Application.ResponseResult" />
       </list>
     </recent_temporary>
@@ -528,7 +557,7 @@
       <workItem from="1681128758135" duration="4724000" />
       <workItem from="1681192631528" duration="1199000" />
       <workItem from="1681285067167" duration="284000" />
-      <workItem from="1681463649252" duration="3682000" />
+      <workItem from="1681463649252" duration="11227000" />
     </task>
     <task id="LOCAL-00001" summary="创建仓库">
       <created>1681464216244</created>
@@ -537,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681464216244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day1:频道管理">
+      <created>1681467564843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681467564843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -670,7 +706,8 @@
       <path value="$PROJECT_DIR$/itheima-news-ppt" />
     </ignored-roots>
     <MESSAGE value="创建仓库" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建仓库" />
+    <MESSAGE value="day1:频道管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1:频道管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
