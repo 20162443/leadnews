@@ -8,4 +8,6 @@ import com.heima.model.common.dtos.ResponseResult;
 public interface AdChannelService extends IService<AdChannel> {
     public ResponseResult findByNameAndPage(ChannelDto dto);
     public ResponseResult insert(AdChannel adChannel);
+    public ResponseResult update(AdChannel adChannel);
+    public ResponseResult deleteById(Integer id);
 }

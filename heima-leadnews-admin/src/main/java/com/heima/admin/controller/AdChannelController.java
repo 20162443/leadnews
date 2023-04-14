@@ -27,4 +27,14 @@ public class AdChannelController implements AdChannelControllerApi {
     public ResponseResult save(AdChannel adChannel) {
         return adChannelService.insert(adChannel);
     }
+
+    @Override
+    public ResponseResult update(AdChannel adChannel) {
+        return adChannelService.update(adChannel);
+    }
+
+    @Override
+    public ResponseResult deleteById(Integer id) {
+        return adChannelService.deleteById(id);
+    }
 }
