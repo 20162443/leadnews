@@ -35,7 +35,8 @@ public class AdUserServiceImpl extends ServiceImpl<AdUserMapper, AdUser> impleme
                 Map<String,Object> map=new HashMap<>();
                 adUser.setPassword("");
                 adUser.setSalt("");
-                map.put("token", AppJwtUtil.getToken(adUser.getId().longValue()));
+                String token=AppJwtUtil.getToken(adUser.getId().longValue());
+                map.put("token", token);
                 map.put("user",adUser);
                 return ResponseResult.okResult(map);
             }else{

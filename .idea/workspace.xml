@@ -5,20 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b189cbd5-debf-44a1-bfc5-508e4277006d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/utils/AppJwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/target/classes/com/heima/admin/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/target/classes/com/heima/admin/gateway/filter/AuthorizeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-admin-gateway/target/classes/com/heima/admin/gateway/utils/AppJwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/article/AuthorControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/user/ApUserRealnameControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/src/main/java/com/heima/apis/wemedia/WmUserControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/target/classes/com/heima/apis/article/AuthorControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/target/classes/com/heima/apis/user/ApUserRealnameControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-apis/target/classes/com/heima/apis/wemedia/WmUserControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/ArticleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/config/ExceptionCatchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/controller/v1/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/mapper/AuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/java/com/heima/article/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/ArticleApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/config/ExceptionCatchConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/config/SwaggerConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/controller/v1/AuthorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/mapper/AuthorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/service/AuthorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-article/target/classes/com/heima/article/service/impl/AuthorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/constans/user/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/constans/user/UserConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/user/dtos/AuthDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/user/pojos/ApUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/user/pojos/ApUserRealname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/wemedia/pojos/WmUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/user/dtos/AuthDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/wemedia/pojos/WmUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/controller/v1/ApUserRealnameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/feign/ArticleFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/feign/WemediaFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/mapper/ApUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/mapper/ApUserRealnameMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/service/ApUserRealnameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/java/com/heima/user/service/impl/ApUserRealnameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/controller/v1/ApUserRealnameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/feign/ArticleFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/feign/WemediaFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/mapper/ApUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/mapper/ApUserRealnameMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/service/ApUserRealnameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-user/target/classes/com/heima/user/service/impl/ApUserRealnameServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/WemediaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/config/ExceptionCatchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/controller/v1/WmUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/mapper/WmUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/WmUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/config/ExceptionCatchConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/config/SwaggerConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/controller/v1/WmUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/mapper/WmUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/service/WmUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmUserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller/AdChannelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller/AdChannelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdChannelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/AdminApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/config/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/controller/AdChannelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/mapper/AdChannelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/AdChannelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/impl/AdChannelServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/admin/pojos/AdUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/admin/pojos/AdUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/service/impl/AdUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/impl/AdUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-admin/target/classes/com/heima/admin/service/impl/AdUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/article/pojos/ApAuthor.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/article/pojos/ApAuthor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/media/pojos/WmUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/user/pojos/ApUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/user/pojos/ApUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/user/pojos/ApUserRealname.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/user/pojos/ApUserRealname.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/threadlocal/WmThreadLocalUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/src/main/java/com/heima/utils/threadlocal/WmThreadLocalUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/classes/com/heima/utils/threadlocal/WmThreadLocalUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/classes/com/heima/utils/threadlocal/WmThreadLocalUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,6 +350,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="adchannel&#9;FILE&#9;file://E:/code/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/admin/pojos/AdChannel.java&#10;articleHomeController&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-article/src/main/java/com/heima/article/controller/v2/ArticleHomeController.java&#10;UpdateArticle&#9;PSI&#9;JAVA://com.heima.model.mess.app.UpdateArticle&#10;Dateut&#9;PSI&#9;JAVA://com.heima.utils.common.DateUtils&#10;ApAss&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApAssociateWords&#10;Apuserse&#9;PSI&#9;JAVA://com.heima.model.user.pojos.ApUserSearch&#10;ApArticle&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticle&#10;Esindex&#9;PSI&#9;JAVA://com.heima.model.common.constants.ESIndexConstants&#10;ApUserSearch&#9;PSI&#9;JAVA://com.heima.model.user.pojos.ApUserSearch&#10;ApHotWords&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApHotWords&#10;ApAssociateWords&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApAssociateWords&#10;UserSearchDto&#9;PSI&#9;JAVA://com.heima.model.article.dtos.UserSearchDto&#10;CommentDto&#9;PSI&#9;JAVA://com.heima.model.media.dtos.CommentDto&#10;comm&#9;PSI&#9;JAVA://com.heima.model.media.dtos.CommentReplytDto&#10;commentd&#9;PSI&#9;JAVA://com.heima.model.media.dtos.CommentDto&#10;apColl&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApCollection&#10;ApReadBehavior&#9;PSI&#9;JAVA://com.heima.model.behavior.pojos.ApReadBehavior&#10;apuserrelation&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-user/src/main/java/com/heima/user/service/impl/ApUserRelationServiceImpl.java&#10;ApUserFan&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/user/pojos/ApUserFan.java&#10;ApUserFollow&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/user/pojos/ApUserFollow.java&#10;apUserrelation&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-user/src/main/java/com/heima/user/service/impl/ApUserRelationServiceImpl.java&#10;BehaviorFeign&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-article/src/main/java/com/heima/article/feign/BehaviorFeign.java&#10;ApUnlikesBehavior&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/behavior/pojos/ApUnlikesBehavior.java&#10;ApLikesBehavior&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/behavior/pojos/ApLikesBehavior.java&#10;ApCollection&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/article/pojos/ApCollection.java&#10;ApBehaviorEntry&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/behavior/pojos/ApBehaviorEntry.java&#10;aparticle&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticle&#10;ArticleInfoControllerApi&#9;PSI&#9;JAVA://com.heima.api.article.ArticleInfoControllerApi&#10;ArticleInfoDto&#9;PSI&#9;JAVA://com.heima.model.article.dtos.ArticleInfoDto&#10;Aparticle&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticle&#10;WmNewsService&#9;PSI&#9;JAVA://com.heima.wemedia.service.WmNewsService&#10;wmnews&#9;PSI&#9;JAVA://com.heima.model.media.pojos.WmNews&#10;ApArticleContent&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticleContent&#10;ApArticleConfig&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticleConfig&#10;aparticlecont&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticleContent&#10;aparticleco&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticleConfig&#10;apauthor&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApAuthor&#10;wmuser&#9;PSI&#9;JAVA://com.heima.model.media.pojos.WmUser&#10;apauth&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApAuthor&#10;apuserr&#9;PSI&#9;JAVA://com.heima.model.user.pojos.ApUserRealname&#10;HikariDataSource&#9;PSI&#9;JAVA://com.zaxxer.hikari.HikariDataSource&#10;FescarAutoConfiguration&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-common/src/main/java/com/heima/common/fescar/config/FescarAutoConfiguration.java&#10;authdto&#9;PSI&#9;JAVA://com.heima.model.admin.dtos.AuthDto&#10;CommonTableEnum&#9;PSI&#9;JAVA://com.heima.model.admin.enums.CommonTableEnum&#10;wmnewsm&#9;PSI&#9;JAVA://com.heima.model.media.pojos.WmNewsMaterial&#10;EnableSwaggerBootstrapUi&#9;null&#9;null&#10;REspon&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/common/dtos/ResponseResult.java&#10;ApA&#9;PSI&#9;JAVA://com.heima.model.article.pojos.ApArticle&#10;Wmnews&#9;FILE&#9;file://D:/course_code/hmtt2.0/heima-leadnews/heima-leadnews-model/src/main/java/com/heima/model/media/pojos/WmNews.java&#10;WmUser&#9;PSI&#9;JAVA://com.heima.model.media.pojos.WmUser" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -278,13 +358,16 @@
     <property name="dynamic.classpath" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/heima-leadnews-admin/src/main/java/com/heima/admin/controller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-heima-leadnews-admin-vue-teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -295,22 +378,22 @@
       <recent name="com.heima.article.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-admin\src\main\java\com\heima\admin\config" />
-      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-admin\src\main\resources" />
-      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-admin\src\main\java\com\heima\admin" />
-      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-admin" />
-      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-apis\src\main\java\com\heima\admin" />
+      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-user\src\main\java\com\heima\user\service\impl" />
+      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model" />
+      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\media" />
+      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-user\src\main\java\com\heima\user" />
+      <recent name="E:\java\worksapce\heima-leadnews\heima-leadnews-user\src\main\java\com\heima\user\controller\v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\course_code\hmtt2.0\heima-leadnews\heima-leadnews-user\src\main\java\com\heima\user\service\impl" />
       <recent name="D:\heima_leadnews\code\heima-leadnews\heima-leadnews-model\src\main\resources\mappers\admin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.heima.apis.user" />
+      <recent name="com.heima.admin.gateway.utils" />
       <recent name="com.heima.article.listener" />
       <recent name="com.heima.article.config" />
       <recent name="com.heima.article.service.impl" />
-      <recent name="com.heima.article.service" />
-      <recent name="com.heima.article.mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
@@ -354,7 +437,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="heima-leadnews-article" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.article.ArticleApplication" />
       <method v="2">
@@ -371,6 +454,19 @@
     <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="heima-leadnews-comment" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.comment.CommentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-admin-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.admin.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.admin.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -410,14 +506,17 @@
       <item itemvalue="Spring Boot.WemediaApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
-      <item itemvalue="Spring Boot.ArticleApplication" />
       <item itemvalue="Spring Boot.BehaviorApplication" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
       <item itemvalue="Spring Boot.CommentApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication (1)" />
         <item itemvalue="Application.AppJwtUtil" />
         <item itemvalue="Application.ResponseResult" />
       </list>
@@ -558,6 +657,11 @@
       <workItem from="1681192631528" duration="1199000" />
       <workItem from="1681285067167" duration="284000" />
       <workItem from="1681463649252" duration="11227000" />
+      <workItem from="1681484208349" duration="5780000" />
+      <workItem from="1681490663451" duration="2533000" />
+      <workItem from="1681546149399" duration="4854000" />
+      <workItem from="1681568929094" duration="82000" />
+      <workItem from="1681793156389" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="创建仓库">
       <created>1681464216244</created>
@@ -573,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681467564843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day2:登录实现">
+      <created>1681484430665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681484430665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -707,7 +818,8 @@
     </ignored-roots>
     <MESSAGE value="创建仓库" />
     <MESSAGE value="day1:频道管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1:频道管理" />
+    <MESSAGE value="day2:登录实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2:登录实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,7 +937,7 @@
         <line-breakpoint type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class</url>
           <line>18</line>
-          <properties class="com.baomidou.mybatisplus.core.mapper.BaseMapper" method="deleteById" />
+          <properties class="com.baomidou.mybatisplus.core.mapper.BaseMapper" />
           <option name="timeStamp" value="357" />
         </line-breakpoint>
       </breakpoints>
